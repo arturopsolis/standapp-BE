@@ -439,7 +439,7 @@ export interface ApiUserVideoProgressUserVideoProgress
     singularName: 'user-video-progress';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     completed: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
@@ -457,6 +457,10 @@ export interface ApiUserVideoProgressUserVideoProgress
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    user: Schema.Attribute.Relation<
+      'oneToOne',
+      'plugin::users-permissions.user'
+    >;
     videoId: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
