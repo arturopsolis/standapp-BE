@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_video_progresses",
+  "info": {
+    "singularName": "user-video-progress",
+    "pluralName": "user-video-progresses",
+    "displayName": "user-video-progress"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoId": {
+      "type": "string",
+      "required": true
+    },
+    "progressSeconds": {
+      "type": "integer",
+      "required": true
+    },
+    "completed": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
