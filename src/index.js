@@ -50,31 +50,31 @@ module.exports = {
                           ¡Bienvenido, ${name}!
                         </p>
                         <p style="margin:0 0 24px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:15px; color:#a1a1aa; line-height:1.6;">
-                          Tu cuenta está lista. Ya puedes disfrutar de la mejor comedia en español, sin interrupciones.
+                          Ahora tu cuenta recuerda por ti. Empieza en el celular, continúa en la compu — tu progreso siempre te espera donde lo dejaste.
                         </p>
 
                         <p style="margin:0 0 12px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:15px; color:#d4d4d8; line-height:1.6;">
-                          En StandApp+ encontrarás:
+                          Tu cuenta ya tiene todo listo:
                         </p>
                         <table cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
                           <tr>
                             <td style="padding:6px 0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; color:#a1a1aa;">
-                              <span style="color:#ef4444; margin-right:10px;">▸</span> Especiales de stand-up curados a mano
+                              <span style="color:#8ff461; margin-right:10px;">▸</span> Tu progreso sincronizado en todos tus dispositivos
                             </td>
                           </tr>
                           <tr>
                             <td style="padding:6px 0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; color:#a1a1aa;">
-                              <span style="color:#ef4444; margin-right:10px;">▸</span> Los mejores roasts en español
+                              <span style="color:#8ff461; margin-right:10px;">▸</span> Especiales de stand-up curados a mano
                             </td>
                           </tr>
                           <tr>
                             <td style="padding:6px 0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; color:#a1a1aa;">
-                              <span style="color:#ef4444; margin-right:10px;">▸</span> Tu progreso guardado en todos tus dispositivos
+                              <span style="color:#8ff461; margin-right:10px;">▸</span> Los mejores roasts en español
                             </td>
                           </tr>
                           <tr>
                             <td style="padding:6px 0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; color:#a1a1aa;">
-                              <span style="color:#ef4444; margin-right:10px;">▸</span> Contenido nuevo constantemente
+                              <span style="color:#8ff461; margin-right:10px;">▸</span> Contenido nuevo constantemente
                             </td>
                           </tr>
                         </table>
