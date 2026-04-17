@@ -23,8 +23,8 @@ module.exports = {
           <!DOCTYPE html>
           <html lang="es">
           <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-          <body style="margin:0; padding:0; background-color:#09090b;">
-            <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#09090b; padding: 40px 16px;">
+          <body style="margin:0; padding:0; background-color:#f4f4f5;">
+            <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f5; padding: 40px 16px;">
               <tr>
                 <td align="center">
                   <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px; background-color:#18181b; border-radius:16px; overflow:hidden; border: 1px solid #27272a;">
@@ -32,9 +32,7 @@ module.exports = {
                     <!-- Header con logo -->
                     <tr>
                       <td align="center" style="padding: 40px 40px 32px;">
-                        <p style="margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:28px; font-weight:700; color:#ffffff; letter-spacing:-0.5px;">
-                          StandApp<span style="color:#ef4444;">+</span>
-                        </p>
+                        <img src="https://standapp.somnum.net/email-logo.png" alt="StandApp+" width="180" style="display:block; border:0; max-width:100%;" />
                       </td>
                     </tr>
 
@@ -84,9 +82,9 @@ module.exports = {
                         <!-- CTA -->
                         <table cellpadding="0" cellspacing="0">
                           <tr>
-                            <td align="center" style="border-radius:10px; background-color:#ef4444;">
+                            <td align="center" style="border-radius:10px; background-color:#8ff461;">
                               <a href="https://standapp.somnum.net"
-                                style="display:inline-block; padding:14px 32px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:15px; font-weight:600; color:#ffffff; text-decoration:none; letter-spacing:0.2px;">
+                                style="display:inline-block; padding:14px 32px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:15px; font-weight:600; color:#0a0a0a; text-decoration:none; letter-spacing:0.2px;">
                                 Empezar a ver comedia
                               </a>
                             </td>
@@ -124,7 +122,7 @@ module.exports = {
 
         try {
           const { error } = await resend.emails.send({
-            from: 'StandApp+ <noreply@corazolana.com>',
+            from: 'StandApp+ <noreply@somnum.net>',
             to: [email],
             subject: '¡Bienvenido a StandApp+! 🎤',
             html,
