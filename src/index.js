@@ -6,6 +6,9 @@ module.exports = {
   register(/*{ strapi }*/) {},
 
   bootstrap({ strapi }) {
+    // Railway termina SSL en el proxy — forzar que Koa confíe en X-Forwarded-Proto
+    strapi.server.app.proxy = true
+
     // Enviar email de bienvenida cuando se registra un nuevo usuario
     strapi.db.lifecycles.subscribe({
       models: ['plugin::users-permissions.user'],
